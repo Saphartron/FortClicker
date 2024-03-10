@@ -1,1 +1,194 @@
-https://github.com/Saphartron/FortniteClicker/blob/main/Code
+Let's make a game!
+
+name:Epic Gays Clicker 3000
+by:Saphartron, TheDo
+
+Buttons
+    *EpicGay
+    name:Epic Gay
+    no tooltip
+    no text
+    on click:yield 1 vbucks
+    icon:https://cdn.discordapp.com/attachments/609013769397338146/1216142303274471565/epicButton.png?ex=65ff4fc7&is=65ecdac7&hm=14309b1f9a1ff384cd9c858d0968355b5d32a9ecb56da2a6756168fd53e8c392&
+    class:bigButton hasFlares
+
+Resources
+	*vbucks
+	name:V-Bucks
+	icon:https://cdn.discordapp.com/attachments/609013769397338146/1216145544842449056/vbucks.png?ex=65ff52cc&is=65ecddcc&hm=b6287dc8e985ea601a41309c6d9dcf88c307ccf809c14539bbb01758b50c198a&
+
+Settings
+	background:https://file.garden/ZbPCgywt01V2UsRD/funny/f220409555a27e0973a7084caf1caa56.jpg
+	spritesheet:BuildingIcons, 64 by 64, https://cdn.discordapp.com/attachments/609013769397338146/1216166597530484777/buildings.png?ex=65ff6668&is=65ecf168&hm=5501fdf20c9f1199be5056a760a8b91dc3ccfe35bbc62c13739191b5d19814e7&
+
+Buildings
+	*dmq
+	name:Daily Match Quests
+	cost:20 vbucks
+	on tick:yield 0.1 vbucks
+	icon:BuildingIcons[0,0]
+	icon class:buildingIcon
+
+	*wmq
+	name:Weekly Match Quests
+	cost:100 vbucks
+	on tick:yield 1 vbucks
+	icon:BuildingIcons[1,0]
+	icon class:buildingIcon
+
+	*botlobbies
+	name:Bot Lobbies
+	cost:1200 vbucks
+	on tick:yield 10 vbucks
+	req:600 vbucks:max
+	icon:BuildingIcons[2,0]	
+	icon class:buildingIcon
+
+	*lunch
+	name:Lunch Money
+	cost:13000 vbucks
+	on tick:yield 50 vbucks
+	req:6500 vbucks:max
+	icon:BuildingIcons[3,0]
+	icon class:buildingIcon
+
+	*uncemote
+	name:Uncommon Emote
+	cost:150000 vbucks
+	on tick:yield 260 vbucks
+	req:75000 vbucks:max
+	icon:BuildingIcons[0,1]
+	icon class:buildingIcon
+
+	*creative
+	name:Creative Maps
+	cost:1400000 vbucks
+	on tick:yield 1500 vbucks
+	req:700000 vbucks:max
+	icon:BuildingIcons[1,1]
+	icon class:buildingIcon
+
+	*videos
+	name:Fortnite Videos
+	cost:20000000 vbucks
+	on tick:yield 7800 vbucks
+	req:10000000 vbucks:max
+	icon:BuildingIcons[2,1]
+	icon class:buildingIcon
+
+	*rareemote
+	name:Rare Emote
+	cost:330000000 vbucks
+	on tick:yield 45000 vbucks
+	req:165000000 vbucks:max
+	icon:BuildingIcons[3,1]
+	icon class:buildingIcon
+	
+	*lobbies
+	name:Actual Lobbies
+	cost:5000000000 vbucks
+	on tick:yield 260000 vbucks
+	req:2500000000 vbucks:max
+	icon:BuildingIcons[0,2]
+	icon class:buildingIcon
+
+	*streams
+	name:Fortnite Streams
+	cost:75000000000 vbucks
+	on tick:yield 1600000 vbucks
+	req:37500000000 vbucks:max
+	icon:BuildingIcons[1,2]
+	icon class:buildingIcon
+
+	*iconseries
+	name:Icon Series Emote
+	cost:1000000000000 vbucks
+	on tick:yield 10000000 vbucks
+	req:500000000000 vbucks:max
+	icon:BuildingIcons[2,2]
+	icon class:buildingIcon
+
+	*ranked
+	name:Ranked Lobbies
+	cost:14000000000000 vbucks
+	on tick:yield 65000000 vbucks
+	req:7000000000000 vbucks:max
+	icon:BuildingIcons[3,2]
+	icon class:buildingIcon
+
+	*creator
+	name:Creator Code
+	cost:170000000000000 vbucks
+	on tick:yield 430000000 vbucks
+	req:85000000000000 vbucks:max
+	icon:BuildingIcons[0,3]
+	icon class:buildingIcon
+
+	*epicemote
+	name:Epic Emote
+	cost:2000000000000000 vbucks
+	on tick:yield 2900000000 vbucks
+	req:1000000000000000 vbucks:max
+	icon:BuildingIcons[1,3]
+	icon class:buildingIcon
+
+	*sweaty
+	name:Sweaty Skins
+	cost:26000000000000000 vbucks
+	on tick:yield 21000000000 vbucks
+	req:13000000000000000 vbucks:max
+	icon:BuildingIcons[2,3]
+	icon class:buildingIcon
+
+	*merch
+	name:Fortnite Merch
+	cost:310000000000000000 vbucks
+	on tick:yield 150000000000 vbucks
+	req:155000000000000000 vbucks:max
+	icon:BuildingIcons[3,3]
+	icon class:buildingIcon
+
+	*hostage
+	name:Epic Games Hostage
+	cost:71000000000000000000 vbucks
+	on tick:yield 8300000000000 vbucks
+	req:35500000000000000000 vbucks:max
+	icon:BuildingIcons[0,4]
+	icon class:buildingIcon
+
+	*twitter
+	name:Controversial Social Media
+	cost:12000000000000000000000 vbucks
+	on tick:yield 8300000000000 vbucks
+	req:6000000000000000000 vbucks:max
+	icon:BuildingIcons[1,4]
+	icon class:buildingIcon
+
+	*father
+	name:Abusive father
+	cost:1900000000000000000000000 vbucks
+	on tick:yield 64000000000000 vbucks
+	req:950000000000000000 vbucks:max
+	icon:BuildingIcons[2,4]
+	icon class:buildingIcon
+
+	*fncs
+	name:FNCS
+	cost:540000000000000000000000000 vbucks
+	on tick:yield 510000000000000 vbucks
+	req:270000000000000000000 vbucks:max
+	icon:BuildingIcons[3,4]
+	icon class:buildingIcon
+
+CSS
+	.buildingIcon
+	{
+    	height:64px;
+    	width:64px;
+	}
+
+Upgrades
+	*test
+	name:test
+	on earn:yield 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 vbucks
+	on earn:hide this
